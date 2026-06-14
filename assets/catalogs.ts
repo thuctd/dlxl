@@ -231,8 +231,8 @@ export const catData: CATALOGS[] = [
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Trả hồ sơ", "GiaTri": -1 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Tiếp nhận", "GiaTri": 0 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Đang khảo sát", "GiaTri": 1 },
-  { "Nhom": "TrangThaiHSTA", "NoiDung": "Chờ cấp phép", "GiaTri": 3 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Đã TTĐN", "GiaTri": 2 },
+  { "Nhom": "TrangThaiHSTA", "NoiDung": "Chờ cấp phép", "GiaTri": 3 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Đang thi công", "GiaTri": 4 },
   { "Nhom": "TrangThaiHSTA", "NoiDung": "Đã đóng điện", "GiaTri": 5 },
 
@@ -258,15 +258,12 @@ export const catData: CATALOGS[] = [
   { "Nhom": "KyQuy", "NoiDung": "Đã thanh lý", "GiaTri": -1},
   { "Nhom": "KyQuy", "NoiDung": "Đã chuyển thu nhập khác", "GiaTri": 3 },
 
-  { "Nhom": "HTHUC_DBAO_HDONG", "NoiDung": "Ký quỹ sử dụng điện", "GiaTri": 1 },
+  { "Nhom": "HTHUC_DBAO_HDONG", "NoiDung": "Đặt cọc bằng tiền", "GiaTri": 1 },
   { "Nhom": "HTHUC_DBAO_HDONG", "NoiDung": "Bảo lãnh ngân hàng", "GiaTri": 2 },
 
 
   { "Nhom": "LOAIHOPDONG", "NoiDung": "Hợp đồng ngắn hạn", "GiaTri": 'HDNH' },
   { "Nhom": "LOAIHOPDONG", "NoiDung": "Hợp đồng ngoài sinh hoạt", "GiaTri": 'HDNSH' },
-
-
-
 
 
 ]
