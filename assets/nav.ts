@@ -108,7 +108,7 @@ export const NAV: ENVIDB[] =
         { _id: '2', label: 'SMS', link: 'kinh-doanh/sms-doc-thu', api: 'sms-doc-thu', guest: false, icon: 'history_edu', index: ['MA_KHANG'] },
         { _id: '3', label: 'Ghi chỉ số', link: 'kinh-doanh/ghi-chi-so', api: 'ghi-chi-so', guest: false, icon: 'quiz', index: ['MA_KHANG', 'SO_CTO', 'PHAN_CONG', 'MA_SOGCS', 'BCS', 'KYCS', 'SO_GHI', 'TEN_TRAM', 'TRANG_THAI'] },
         { _id: '4', label: 'Lịch ghi chỉ số', link: 'kinh-doanh/lich-ghi-chi-so', api: 'lich-ghi-chi-so', guest: false, icon: 'quiz', index: ['PHAN_CONG', 'MA_SOGCS', 'MA_KV', 'TEN_TRAM'] },
-        { _id: '5', label: 'Bảo đảm hợp đồng', link: 'kinh-doanh/ky-quy', api: 'ky-quy', guest: false, icon: 'quiz', index: ['MA_KHANG', 'TEN_KHANG', 'GHI_CHU'] },
+        { _id: '5', label: 'Bảo đảm hợp đồng', link: 'kinh-doanh/ky-quy', api: 'ky-quy', guest: false, icon: 'quiz', index: ['MA_KHANG', 'TEN_KHANG', 'GHI_CHU', 'MAPK'] },
         { _id: '7', label: '', link: '', api: 'ky-quy-nhat-ky', guest: false, icon: 'quiz', index: ['MA_KHANG'] },
         { _id: '6', label: 'Dự báo', link: 'kinh-doanh/du-bao', api: 'du-bao', guest: false, icon: 'quiz', index: [] },
       ]
