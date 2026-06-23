@@ -47,8 +47,8 @@ export const NAV: ENVIDB[] =
         { _id: '4', label: 'CSKH', link: 'tienich/cskh', api: 'cmis4-app-cskh', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
         { _id: '5', label: 'HTML', link: 'tienich/html', api: 'hmtl', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
         { _id: '6', label: 'Combine Excel', link: 'tienich/combine-excel', api: 'combine-excel', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
-        { _id: '7', label: 'Tra cứu luật', link: 'tienich/law', api: 'law', guest: false, icon: 'history_edu', index: ['DIEU_KHOAN', 'NOI_DUNG',] },
-        { _id: '8', label: '', link: '', api: 'tra-van-ban', guest: false, icon: 'history_edu', index: ['DIEU_KHOAN', 'NOI_DUNG',] },
+        { _id: '7', label: 'Tra cứu luật', link: 'tienich/law', api: 'law', guest: false, icon: 'history_edu', index: ['DIEU_KHOAN', 'NOI_DUNG', 'CAN_CU'] },
+        { _id: '8', label: '', link: '', api: 'lawDO', guest: false, icon: 'history_edu', index: ['DIEU_KHOAN', 'NOI_DUNG',] },
       ]
     },
     {
