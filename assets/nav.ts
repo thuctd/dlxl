@@ -4,7 +4,7 @@ export const NAV: ENVIDB[] =
     {
       _id: '0', label: 'Admin', link: 'admin', dbName: 'admin', dbVer: 2, global: false, icon: 'security',
       sub: [
-        { _id: '1', label: 'Người dùng', link: 'admin/user', api: 'user', guest: false, icon: 'manage_accounts', index: [] },
+        { _id: '1', label: 'Người dùng', link: 'admin/user', api: 'user', guest: false, icon: 'manage_accounts', index: ['fullName', 'phoneNumber', 'email' ,'nick', 'devices'] },
         { _id: '2', label: 'Nhật ký', link: 'admin/log', api: 'log', guest: false, icon: 'receipt_long', index: [] },
         { _id: '3', label: 'Crypt', link: 'admin/crypt', api: 'dev', guest: false, icon: 'admin_panel_settings', index: [] },
       ]
