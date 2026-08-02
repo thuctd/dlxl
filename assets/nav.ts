@@ -90,6 +90,7 @@ export const NAV: ENVIDB[] =
         { _id: '6', label: 'Khách hàng', link: 'dien-luc/dmt-khach-hang', api: 'dmt-khach-hang', guest: false, icon: 'description', index: ['MaKhachHang'] },
         { _id: '7', label: 'Lịch sử cập nhật', link: 'dien-luc/dmt-history', api: 'dmt-history', guest: false, icon: 'description', index: ['MaKhachHang'] },
         { _id: '8', label: 'Cài đặt', link: 'dien-luc/dmt-setup', api: 'dmt-setup', guest: false, icon: 'description', index: [] },
+        { _id: '9', label: 'Kiểm tra hóa đơn', link: 'dien-luc/dmt-check', api: 'dmt-check', guest: false, icon: 'description', index: [] },
       ]
     },
     {
