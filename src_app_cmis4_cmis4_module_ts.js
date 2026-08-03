@@ -1629,12 +1629,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_app_share_services_excel_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/share/services/excel.service */ 53789);
 /* harmony import */ var _angular_fire_compat_remote_config__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/fire/compat/remote-config */ 73721);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/forms */ 89417);
-/* harmony import */ var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/slide-toggle */ 30450);
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/button */ 88834);
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/input */ 59042);
-/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/form-field */ 53719);
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/button */ 88834);
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/input */ 59042);
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/form-field */ 53719);
 /* harmony import */ var _share_import_excel_parse_excel_clipboard_parse_excel_clipboard_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../share/import-excel/parse-excel-clipboard/parse-excel-clipboard.component */ 8390);
-
 
 
 
@@ -1774,7 +1772,7 @@ class BienBanChotDmtComponent {
       });
     })();
   }
-  getBBanXnhanDienMTAM(maKH, nam, inhoadon) {
+  getBBanXnhanDienMTAM(maKH, nam, type) {
     var _this4 = this;
     return (0,B_4la_f_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this4.loadSV.load('getBBanXnhanDienMTAM');
@@ -1839,12 +1837,18 @@ class BienBanChotDmtComponent {
           dataexport8.push(element);
         }
       }
-      _this4.exportDoc(dataexport, maKH, nam);
-      if (_this4.in6Thang) {
-        _this4.exportDocThue(dataexport10, 1, 6, 0.1);
-        _this4.exportDocThue(dataexport8, 7, 12, 0.08);
+      switch (type) {
+        case 1:
+          _this4.exportDoc(dataexport, maKH, nam);
+          break;
+        case 2:
+          _this4.exportDocThue(dataexport10, 1, 6, 0.1);
+          _this4.exportDocThue(dataexport8, 7, 12, 0.08);
+          break;
+        case 3:
+          _this4.exportDocThue(dataexport, 1, 12, _this4.thuevat);
+          break;
       }
-      inhoadon ? _this4.exportDocThue(dataexport, 1, 12, _this4.thuevat) : null;
       _this4.loadSV.loaded('getBBanXnhanDienMTAM');
     })();
   }
@@ -1902,7 +1906,8 @@ class BienBanChotDmtComponent {
         const el = data[i];
         body.tongCVAT += el.SO_TIEN;
         body.tongVAT += el.TIEN_GTGT;
-        body.tongDG += el.DON_GIA;
+        body.donGia = el.DON_GIA;
+        body.Nam = el.NAM;
         body.tongSL += el.SAN_LUONG;
         body.tongTien += el.TONG_TIEN;
         for (let ib = 0; ib < body.tb.length; ib++) {
@@ -1996,6 +2001,7 @@ class BienBanChotDmtComponent {
         if (el.NAM == nam) {
           body.tongCVAT += el.SO_TIEN;
           body.tongVAT += el.TIEN_GTGT;
+          body.donGia = el.DON_GIA;
           body.tongDG += el.DON_GIA;
           body.tongSL += el.SAN_LUONG;
           body.tongTien += el.TONG_TIEN;
@@ -2139,8 +2145,8 @@ class BienBanChotDmtComponent {
       type: BienBanChotDmtComponent,
       selectors: [["app-bien-ban-chot-dmt"]],
       decls: 13,
-      vars: 3,
-      consts: [[1, "container"], [3, "label", "excel"], ["matInput", "", "type", "number", "placeholder", "N\u0103m", 3, "ngModel", "ngModelChange"], [1, "text-center"], ["color", "warn", 3, "ngModel", "ngModelChange"], ["mat-raised-button", "", 3, "click"]],
+      vars: 2,
+      consts: [[1, "container"], [3, "label", "excel"], ["matInput", "", "type", "number", "placeholder", "N\u0103m", 3, "ngModel", "ngModelChange"], [1, "text-center"], ["mat-raised-button", "", 3, "click"]],
       template: function BienBanChotDmtComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](0, "div", 0)(1, "app-parse-excel-clipboard", 1);
@@ -2153,27 +2159,27 @@ class BienBanChotDmtComponent {
             return ctx.nam = $event;
           });
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](4, "div", 3)(5, "mat-slide-toggle", 4);
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("ngModelChange", function BienBanChotDmtComponent_Template_mat_slide_toggle_ngModelChange_5_listener($event) {
-            return ctx.in6Thang = $event;
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](4, "div", 3)(5, "button", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function BienBanChotDmtComponent_Template_button_click_5_listener() {
+            return ctx.getBBQTArr(1);
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](6, "6 th\u00E1ng");
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](6, "Bi\u00EAn b\u1EA3n");
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](7, "button", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](7, "button", 4);
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function BienBanChotDmtComponent_Template_button_click_7_listener() {
-            return ctx.getBBQTArr(false);
-          });
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](8, "Bi\u00EAn b\u1EA3n");
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](9, "button", 5);
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function BienBanChotDmtComponent_Template_button_click_9_listener() {
             return ctx.getCongNoArr();
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](10, "C\u00F4ng n\u1EE3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](8, "C\u00F4ng n\u1EE3");
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](11, "button", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](9, "button", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function BienBanChotDmtComponent_Template_button_click_9_listener() {
+            return ctx.getBBQTArr(2);
+          });
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](10, "Phi\u1EBFu c\u00F3 thu\u1EBF 6 th\u00E1ng");
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](11, "button", 4);
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function BienBanChotDmtComponent_Template_button_click_11_listener() {
-            return ctx.getBBQTArr(true);
+            return ctx.getBBQTArr(3);
           });
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](12, "Phi\u1EBFu c\u00F3 thu\u1EBF");
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()();
@@ -2183,11 +2189,9 @@ class BienBanChotDmtComponent {
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("label", "Copy m\u00E3 PK d\u00E1n v\u00F4 \u0111\u00E2y");
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](2);
           _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("ngModel", ctx.nam);
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("ngModel", ctx.in6Thang);
         }
       },
-      dependencies: [_angular_forms__WEBPACK_IMPORTED_MODULE_15__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_15__.NumberValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_15__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_15__.NgModel, _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_16__.MatSlideToggle, _angular_material_button__WEBPACK_IMPORTED_MODULE_17__.MatButton, _angular_material_input__WEBPACK_IMPORTED_MODULE_18__.MatInput, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_19__.MatFormField, _share_import_excel_parse_excel_clipboard_parse_excel_clipboard_component__WEBPACK_IMPORTED_MODULE_8__.ParseExcelClipboardComponent]
+      dependencies: [_angular_forms__WEBPACK_IMPORTED_MODULE_15__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_15__.NumberValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_15__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_15__.NgModel, _angular_material_button__WEBPACK_IMPORTED_MODULE_16__.MatButton, _angular_material_input__WEBPACK_IMPORTED_MODULE_17__.MatInput, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_18__.MatFormField, _share_import_excel_parse_excel_clipboard_parse_excel_clipboard_component__WEBPACK_IMPORTED_MODULE_8__.ParseExcelClipboardComponent]
     });
   }
 }
