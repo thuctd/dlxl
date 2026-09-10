@@ -49,6 +49,7 @@ export const NAV: ENVIDB[] =
         { _id: '6', label: 'Combine Excel', link: 'tienich/combine-excel', api: 'combine-excel', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI_KH'] },
         { _id: '7', label: 'Tra cứu luật', link: 'tienich/law', api: 'law', guest: false, icon: 'history_edu', index: ['DIEU_KHOAN', 'NOI_DUNG', 'CAN_CU'] },
         { _id: '8', label: '', link: '', api: 'lawDO', guest: false, icon: 'history_edu', index: ['DIEU_KHOAN', 'NOI_DUNG',] },
+        { _id: '9', label: 'Cập nhật số điện thoại', link: 'tienich/cap-nhat-dthoai', api: 'cap-nhat-dthoai', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI', 'NHAN_VIEN'] },
       ]
     },
     {
