@@ -12,7 +12,7 @@ export const NAV: ENVIDB[] =
     {
       _id: '1', label: 'Email', link: 'email', dbName: 'email', dbVer: 1, global: true, guest: false, icon: 'forward_to_inbox',
       sub: [
-        { _id: '1', label: 'Tiền lương', link: 'email/tien-luong', api: 'tien-luong', guest: false, icon: 'email', index: [] },
+        { _id: '1', label: 'Tiền lương', link: 'email/tien-luong', api: 'tien-luong', guest: false, icon: 'email', index: ['HoTen', 'ThucLanh', 'email'] },
         { _id: '2', label: 'Thông báo', link: 'email/thong-bao', api: 'thong-bao', guest: false, icon: 'attach_email', index: [] },
       ]
     },
@@ -50,6 +50,7 @@ export const NAV: ENVIDB[] =
         { _id: '7', label: 'Tra cứu luật', link: 'tienich/law', api: 'law', guest: false, icon: 'history_edu', index: ['DIEU_KHOAN', 'NOI_DUNG', 'CAN_CU'] },
         { _id: '8', label: '', link: '', api: 'lawDO', guest: false, icon: 'history_edu', index: ['DIEU_KHOAN', 'NOI_DUNG',] },
         { _id: '9', label: 'Cập nhật số điện thoại', link: 'tienich/cap-nhat-dthoai', api: 'cap-nhat-dthoai', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI', 'NHAN_VIEN'] },
+        { _id: '10', label: 'Thở Luân Phiên', link: 'tienich/tho-luan-phien', api: 'tho-luan-phien', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI', 'NHAN_VIEN'] },//{ _id: '11', label: 'Cập nhật số điện thoại', link: 'tienich/cap-nhat-dthoai', api: 'cap-nhat-dthoai', guest: false, icon: 'history_edu', index: ['MA_KHANG', 'DTHOAI', 'NHAN_VIEN'] },
       ]
     },
     {
