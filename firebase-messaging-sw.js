@@ -19,9 +19,18 @@ const messaging = firebase.messaging();
 messaging.onBackgroundMessage((payload) => {
   console.log('Nhận được tin nhắn (Background): ', payload);
 
-  const notificationTitle = payload.notification.title;
+  if (payload.notification) {
+    return;
+  }
+
+  const data = payload.data || {};
+  if (!data.title && !data.body) {
+    return;
+  }
+
+  const notificationTitle = data.title || 'Thông báo mới';
   const notificationOptions = {
-    body: payload.notification.body,
+    body: data.body || '',
     icon: '/assets/icons/icon-72x72.png' // Đường dẫn icon của bạn
   };
 

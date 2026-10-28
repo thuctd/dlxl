@@ -4,7 +4,7 @@ export const NAV: ENVIDB[] =
     {
       _id: '0', label: 'Admin', link: 'admin', dbName: 'admin', dbVer: 2, global: false, icon: 'security',
       sub: [
-        { _id: '1', label: 'Người dùng', link: 'admin/user', api: 'user', guest: false, icon: 'manage_accounts', index: ['fullName', 'phoneNumber', 'email' ,'nick', 'devices'] },
+        { _id: '1', label: 'Người dùng', link: 'admin/user', api: 'user', guest: false, icon: 'manage_accounts', index: ['fullName', 'phoneNumber', 'email', 'nick', 'devices'] },
         { _id: '2', label: 'Nhật ký', link: 'admin/log', api: 'log', guest: false, icon: 'receipt_long', index: [] },
         { _id: '3', label: 'Crypt', link: 'admin/crypt', api: 'dev', guest: false, icon: 'admin_panel_settings', index: [] },
       ]
@@ -14,6 +14,7 @@ export const NAV: ENVIDB[] =
       sub: [
         { _id: '1', label: 'Tiền lương', link: 'email/tien-luong', api: 'tien-luong', guest: false, icon: 'email', index: ['HoTen', 'ThucLanh', 'email'] },
         { _id: '2', label: 'Thông báo', link: 'email/thong-bao', api: 'thong-bao', guest: false, icon: 'attach_email', index: [] },
+        { _id: '3', label: '', link: '', api: 'email', guest: false, icon: 'attach_email', index: ['BEN_NHAN', 'LOAI_EMAIL', 'MA_DV', 'TRANG_THAI'] },
       ]
     },
     {
@@ -38,6 +39,7 @@ export const NAV: ENVIDB[] =
         { _id: '1', label: '', link: '', api: 'any', guest: false, icon: '', index: ['type'] },
       ]
     },
+
     {
       _id: '5', label: 'Tiện ích', link: 'tienich', dbName: 'app', dbVer: 4, global: true, guest: false, icon: 'construction',
       sub: [
@@ -119,9 +121,15 @@ export const NAV: ENVIDB[] =
     {
       _id: '10', label: 'Kinh Doanh', link: 'nlmt', dbName: 'kinh-doanh', dbVer: 18, global: true, guest: false, icon: 'construction',
       sub: [
-        { _id: '1', label: 'Lập bảng kê', link: 'nlmt/nlmt-kinh-doanh', api: 'nlmt-kinh-doanh', guest: false, icon: 'description', index: [ 'TenBangKe', 'MaKhachHang', 'KhacHang'] },
-        { _id: '2', label: 'Khách hàng', link: 'nlmt/nlmt-khach-hang', api: 'nlmt-khach-hang', guest: false, icon: 'description', index: [  'MaKhachHang', 'KhacHang', 'Email'] },
-        { _id: '3', label: 'Danh sách bảng kê', link: 'nlmt/nlmt-pay', api: 'nlmt-pay', guest: false, icon: 'description', index: [ 'TenBangKe'] },
+        { _id: '1', label: 'Lập bảng kê', link: 'nlmt/nlmt-kinh-doanh', api: 'nlmt-kinh-doanh', guest: false, icon: 'description', index: ['TenBangKe', 'MaKhachHang', 'KhacHang'] },
+        { _id: '2', label: 'Khách hàng', link: 'nlmt/nlmt-khach-hang', api: 'nlmt-khach-hang', guest: false, icon: 'description', index: ['MaKhachHang', 'KhacHang', 'Email'] },
+        { _id: '3', label: 'Danh sách bảng kê', link: 'nlmt/nlmt-pay', api: 'nlmt-pay', guest: false, icon: 'description', index: ['TenBangKe'] },
+      ]
+    },
+    {
+      _id: '11', label: 'Nhạc', link: 'player', dbName: 'firebase-local', dbVer: 1, global: true,
+      sub: [
+        { _id: '1', label: 'Nghe nhạc', link: 'player/song', api: 'song', guest: false, icon: '', index: ['type'] },
       ]
     },
   ]
